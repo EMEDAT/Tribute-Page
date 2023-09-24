@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+/*! minireset.css v0.0.7 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input,
+select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+/* FOR 290px MOBILE DEVICES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1.2rem 1rem ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 0.5rem;
+}
+
+#title {
+    padding: 2rem 0rem 0rem 0rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#sub-header {
+    padding-bottom: 0.9rem;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+#img-div {
+    margin: 0rem 0.5rem;
+    background-color: white;
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.5rem;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 0.7rem;
+    padding-top: 0.4rem;
+}
+
+#tribute-info {
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 2rem 0rem 2rem;
+}
+
+#years_texts{
+    padding: 0rem 0.8rem;
+    text-align: left;
+}
+
+
+#year {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.4rem 0.25rem;
+}
+
+#year span {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+#quote {
+    padding: 2rem 1rem 0rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+#quote2 {
+    padding: 0.8rem 1rem 2rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+#final_texts {
+    text-align: center;
+    padding: 0.8rem 1rem 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* FOR DEVICES WITH WIDTH LESS THAN 500PX */
+
+@media only screen and (min-width: 400px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        padding: 4rem 1rem ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #main {
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        border-radius: 0.5rem;
+    }
+    
+    #title {
+        padding: 2rem 0rem 0rem 0rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    #sub-header {
+        padding-bottom: 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #img-div {
+        margin: 0rem 0.5rem;
+        background-color: white;
+        border-radius: 0.4rem;
+        padding: 1.2rem 0.5rem;
+    }
+    
+    #image {
+        display: block;
+        max-width: 100%;
+    }
+    
+    #img-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        padding-top: 0.8rem;
+    }
+    
+    #tribute-info {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 3rem 0rem 3rem;
+    }
+    
+    #years_texts{
+        text-align: left;
+    }
+    
+    #year {
+        list-style-position: inside;
+        list-style-type: disc;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0.4rem 4rem;
+    }
+    
+    #year span {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #quote {
+        padding: 2rem 4.5rem 0rem;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    #quote2 {
+        padding: 1rem 4.5rem 4rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #final_texts {
+        text-align: center;
+        padding: 0.8rem 0.4rem 2rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }    
+
+}
+
+
+
+
+
+
+/* FOR DEVICES ABOVE IPAD SCREEN SIZES BUT LESS THAT MODERN DESKTOPS */
+@media only screen and (min-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        padding: 4rem 1rem ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #main {
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        border-radius: 0.5rem;
+    }
+    
+    #title {
+        padding: 2rem 0rem 0rem 0rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    #sub-header {
+        padding-bottom: 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #img-div {
+        margin: 0rem 0.5rem;
+        background-color: white;
+        border-radius: 0.4rem;
+        padding: 1.2rem 0.5rem;
+    }
+    
+    #image {
+        display: block;
+        max-width: 100%;
+    }
+    
+    #img-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        padding-top: 0.8rem;
+    }
+    
+    #tribute-info {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 3rem 0rem 3rem;
+    }
+    
+    #years_texts{
+        text-align: left;
+    }
+    
+    #year {
+        list-style-position: inside;
+        list-style-type: disc;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0.4rem 4rem;
+    }
+    
+    #year span {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #quote {
+        padding: 2rem 4.5rem 0rem;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    #quote2 {
+        padding: 1rem 4.5rem 4rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #final_texts {
+        text-align: center;
+        padding: 0.8rem 0.4rem 2rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }    
+
+}
+
+
+
+
+
+/* FOR DEVICES >1100PX AND <1300PX. SAY RESONSIVE CHECK */
+@media only screen and (min-width: 1100px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        padding: 4rem 1rem ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #main {
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        border-radius: 0.5rem;
+    }
+    
+    #title {
+        padding: 2rem 0rem 0rem 0rem;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    #sub-header {
+        padding-bottom: 2rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #img-div {
+        background-color: white;
+        border-radius: 0.4rem;
+        padding: 1.2rem 7rem;
+    }
+    
+    #image {
+        display: block;
+        max-width: 100%;
+    }
+    
+    #img-caption {
+        text-align: center;
+        font-size: 0.9rem;
+        padding-top: 0.8rem;
+    }
+    
+    #tribute-info {
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 3rem 0rem 3rem;
+    }
+    
+    #years_texts{
+        text-align: left;
+    }
+    
+    #year {
+        list-style-position: inside;
+        list-style-type: disc;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 0.4rem 4rem;
+    }
+    
+    #year span {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #quote {
+        padding: 2rem 4.5rem 0rem;
+        font-size: 1rem;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    #quote2 {
+        padding: 1rem 4.5rem 4rem;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    #final_texts {
+        text-align: center;
+        padding: 0.8rem 0.4rem 2rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }    
+
+}
+
+
+
+
+
+
+
+
+/* FOR HIGHEST SCREEN SIZES*/
+@media only screen and (min-width: 1300px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        padding: 6rem 2rem ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    #main {
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: center;
+        align-items: center;
+        background-color: antiquewhite;
+        border-radius: 0.5rem;
+    }
+    
+    #title {
+        padding: 3rem 0rem 0rem 0rem;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    
+    #sub-header {
+        padding-bottom: 5rem;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    
+    #img-div {
+        background-color: white;
+        border-radius: 0.4rem;
+        padding: 1.8rem 13rem;
+    }
+    
+    #image {
+        display: block;
+        max-width: 100%;
+    }
+    
+    #img-caption {
+        text-align: center;
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+    }
+    
+    #tribute-info {
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding: 5rem 0rem 5rem;
+    }
+    
+    #years_texts{
+        text-align: left;
+    }
+    
+    #year {
+        list-style-position: inside;
+        list-style-type: disc;
+        font-size: 1.2rem;
+        font-weight: 600;
+        padding: 0.4rem 20rem;
+    }
+    
+    #year span {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    #quote {
+        padding: 2rem 20rem 0rem;
+        font-size: 1.1rem;
+        font-weight: 400;
+        text-align: left;
+    }
+    
+    #quote2 {
+        padding: 1rem 20rem 4rem;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+    
+    #final_texts {
+        text-align: center;
+        padding: 0.8rem 0.4rem 2rem;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }    
+
+}

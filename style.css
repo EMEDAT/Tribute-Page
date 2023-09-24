@@ -116,11 +116,6 @@ body {
     padding: 0.5rem 0.5rem;
 }
 
-#image {
-    display: block;
-    max-width: 100%;
-}
-
 #img-caption {
     text-align: center;
     font-size: 0.7rem;
@@ -221,11 +216,6 @@ body {
         padding: 1.2rem 0.5rem;
     }
     
-    #image {
-        display: block;
-        max-width: 100%;
-    }
-    
     #img-caption {
         text-align: center;
         font-size: 0.9rem;
@@ -323,11 +313,6 @@ body {
         padding: 1.2rem 0.5rem;
     }
     
-    #image {
-        display: block;
-        max-width: 100%;
-    }
-    
     #img-caption {
         text-align: center;
         font-size: 0.9rem;
@@ -421,11 +406,6 @@ body {
         background-color: white;
         border-radius: 0.4rem;
         padding: 1.2rem 7rem;
-    }
-    
-    #image {
-        display: block;
-        max-width: 100%;
     }
     
     #img-caption {
@@ -524,11 +504,6 @@ body {
         background-color: white;
         border-radius: 0.4rem;
         padding: 1.8rem 13rem;
-    }
-    
-    #image {
-        display: block;
-        max-width: 100%;
     }
     
     #img-caption {
